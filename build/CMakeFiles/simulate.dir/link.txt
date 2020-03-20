@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/simulate.dir/dsp/src/dsp.cpp.o  -o simulate  -L/usr/local/lib/libliquid.so  -L/usr/local/lib/libbcm2835.a  -L/usr/local/lib -rdynamic -lliquid -lbcm2835 libdsp_lib.a -Wl,-rpath,/usr/local/lib/libliquid.so:/usr/local/lib/libbcm2835.a:/usr/local/lib 

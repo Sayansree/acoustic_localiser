@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dsp/include/dsp.h
+liquid/liquid.h
+-
+iostream
+-
+vector
+-
+queue
+-
+thread
+-
+chrono
+-
+cmath
+-
+complex
+-
+fstream
+-
+algorithm
+-
+
+/home/sayansree/acoustic_localiser/dsp/src/dsp.cpp
+dsp.h
+-
+
